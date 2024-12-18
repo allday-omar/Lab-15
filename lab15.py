@@ -12,7 +12,9 @@ bootstrap = Bootstrap5(app)
 
 @app.route('/')
 def acro():
-  return '''<p>Aaron: ikr</p>'''
+  return '''<p>Aaron: ikr</p>
+            <p>Sophia: ILY</p>
+  '''
 
 @app.route('/Omar')
 def temp():
